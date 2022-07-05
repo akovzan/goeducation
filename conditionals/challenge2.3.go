@@ -1,0 +1,23 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var a int
+	var b int
+	var c int
+	fmt.Scan(&a)
+	fmt.Scan(&b)
+	fmt.Scan(&c)
+
+	if a+c > b && a+b > c && c+b > a {
+		fmt.Println("can exist")
+	} else {
+		fmt.Println("can not exist")
+	}
+	if a == b && b == c && a == c {
+		fmt.Println("right triangle")
+	}
+}

@@ -1,0 +1,70 @@
+Instruction
+
+
+How to run program:
+
+1. Create folder for the chapter in the root directory.
+2. Create file in this folder with name ‘challenge[challenge number].go’
+3. Open terminal in VSCode.
+4. Change directory to the directory of the chapter
+5. Type in terminal ‘go run [file name]’ and hit Enter.
+6. To run program again you can hit UpArrow and then Enter.
+
+
+Open terminal:
+
+Select in the top menu “Terminal” → “Create Terminal”
+
+
+Terminal commands:
+
+Change directory               -    cd  [name of directory]
+
+Present working directory      -   pwd
+
+Go up the folder               -   cd ..
+
+Run go program                 -   go run [name of the file]
+
+
+Usage of ‘Tab’ in the terminal:
+
+When you need to enter file name or folder name in terminal (for example while using command ‘cd’), you could use ‘Tab’ to autocomplete the name. 
+
+Example:
+
+In the current position of terminal there are two folders - ‘documents’ and ‘music’. If you type in the terminal ‘cd d’ and hit ‘Tab’ button, then input will change to the ‘cd documents’.
+ So ‘Tab’ helps to autocomplete the name and no to type ‘documents’ completely.
+
+
+
+
+But if there are more than one folder matching your input, ‘Tab’ will not work. 
+
+Example:
+
+In the current position of terminal there are two folders - ‘documents’ and ‘data’. If you type in the terminal ‘cd d’ and hit ‘Tab’ button, then nothing will happed because terminal has two options matching ‘d’  -  
+  ‘documents’ and ‘data’. It you then change your input to ‘cd do’ and after that hit ‘Tab’, then your input will change to ‘cd documents’.
+
+
+
+Usage of UpArrow and DownArrow in the terminal:
+
+UpArrow and DownArrow help you to select previous commands you use in the terminal. 
+
+Example of use:
+
+You want to run go program and you type in ‘go run main.go’ and hit enter. After that if you want to run this program again, you could just hit UpArrow and previous command with appear in the terminal and you can hit Enter to run it. 
+You can use use UpArrow and DownArrow to switch between previous and next command you’ve used in the terminal.
+
+
+
+
+
+Will be needed later:
+
+Git
+
+Create a commit    -    git commit -am “[commit message]”
+
+Push the changes -     git push
