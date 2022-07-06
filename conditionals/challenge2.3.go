@@ -17,7 +17,7 @@ func main() {
 	} else {
 		fmt.Println("can not exist")
 	}
-	if a == b && b == c && a == c {
+	if a*a == b*b+c*c || b*b == a*a+c*c || c*c == b*b+a*a {
 		fmt.Println("right triangle")
 	}
 }
